@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>        
+    .hover_group:hover {
+        opacity:1;
+    }
+    #projectsvg { 
+        position: relative;
+        width: 100%; 
+        padding-bottom: 70%;
+        vertical-align: middle; 
+        margin: 0; 
+        overflow: hidden; 
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+        background-color: rgb(255, 255, 255);      
+    }
+    #projectsvg svg { 
+        display: inline-block;
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+    }        
+    </style>
+    <script>
+        function changeColor() {
+            let element = document.getElementById('projectsvg');
+            let style = getComputedStyle(element);
+            if (style['background-color'] == 'rgb(255, 255, 255)') {
+                element.style.backgroundColor = 'rgb(0, 0, 0)';
+            }
+            else {
+                element.style.backgroundColor = 'rgb(255, 255, 255)';
+            }
+        }
+    </script>
+</head>
+<body>
+    <button id="changeTheme" onclick="changeColor()">Change Theme</button>
+
+    <figure id="projectsvg">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080" preserveAspectRatio="xMinYMin meet" >
+
+            <image width="1920" height="1080" xlink:href="background.png"></image>
+                <g class="hover_group" opacity="1">
+                    <a xlink:href="javascript: void(0)">
+                        <g>
+                            <rect rx="10" ry="10" x="293" y="80" opacity="1" fill="#c28285" width="200" height="120"></rect>
+                            <rect x="305" y="200" opacity="1" fill="#c28285" width="2" height="80"></rect>
+                            <circle cx="305" cy="270" r="7" stroke="#ef9a9a" stroke-width="6" fill="#d32f2f" />
+                            <text x="315" y="120" font-size="24" font-weight="600" fill="#ECEFF1">TSX</text>
+                            <text x="315" y="155" font-size="17" font-weight="600" fill="#ECEFF1">16654.09</text>
+                            <text x="315" y="180" font-size="18" font-weight="600" fill="#8a4548">+0.79% +101.17%</text>
+                        </g>
+                    </a>
+                </g>
+
+                <g class="hover_group" opacity="1">
+                    <a xlink:href="javascript: void(0)">
+                        <rect rx="10" ry="10" x="20" y="450" opacity="1" fill="#5c9e85" width="200" height="120"></rect>
+                        <rect x="200" y="385" opacity="1" fill="#5c9e85" width="2" height="80"></rect>
+                        <circle cx="200" cy="385" r="7" stroke="#009688" stroke-width="6" fill="#81C784" />
+                        <text x="40" y="490" font-size="24" font-weight="600" fill="#ECEFF1">TSX</text>
+                        <text x="40" y="525" font-size="17" font-weight="600" fill="#ECEFF1">16654.09</text>
+                        <text x="40" y="550" font-size="18" font-weight="600" fill="#225244">+0.79% +101.17%</text>
+                    </a>
+                </g>
+
+                <g class="hover_group" opacity="1">
+                    <a xlink:href="javascript: void(0)">
+                        <rect rx="10" ry="10" x="290" y="320" opacity="1" fill="#5c9e85" width="200" height="120"></rect>
+                        <rect x="300" y="420" opacity="1" fill="#5c9e85" width="2" height="80"></rect>
+                        <circle cx="300" cy="505" r="7" stroke="#009688" stroke-width="6" fill="#81C784" />
+                        <text x="305" y="360" font-size="24" font-weight="600" fill="#ECEFF1">TSX</text>
+                        <text x="305" y="390" font-size="17" font-weight="600" fill="#ECEFF1">16654.09</text>
+                        <text x="305" y="415" font-size="18" font-weight="600" fill="#225244">+0.79% +101.17%</text>
+                    </a>
+                </g>
+
+                <g class="hover_group" opacity="1">
+                    <a xlink:href="javascript: void(0)">
+                        <rect rx="10" ry="10" x="490" y="520" opacity="1" fill="#c28285" width="200" height="120"></rect>
+                        <rect x="500" y="620" opacity="1" fill="#c28285" width="2" height="80"></rect>
+                        <circle cx="500" cy="700" r="7" stroke="#ef9a9a" stroke-width="6" fill="#d32f2f" />
+                        <text x="510" y="560" font-size="24" font-weight="600" fill="#ECEFF1">TSX</text>
+                        <text x="510" y="590" font-size="17" font-weight="600" fill="#ECEFF1">16654.09</text>
+                        <text x="510" y="615" font-size="18" font-weight="600" fill="#8a4548">+0.79% +101.17%</text>
+                    </a>
+                </g>
+
+                <g class="hover_group" opacity="1">
+                    <a xlink:href="javascript: void(0)">
+                        <rect rx="10" ry="10" x="810" y="750" opacity="1" fill="#5c9e85" width="200" height="120"></rect>
+                        <rect x="1000" y="700" opacity="1" fill="#5c9e85" width="2" height="80"></rect>
+                        <circle cx="1000" cy="700" r="7" stroke="#009688" stroke-width="6" fill="#81C784" />
+                        <text x="830" y="790" font-size="24" font-weight="600" fill="#ECEFF1">TSXX</text>
+                        <text x="830" y="825" font-size="17" font-weight="600" fill="#ECEFF1">16654.09</text>
+                        <text x="830" y="850" font-size="18" font-weight="600" fill="#225244">+0.79% +101.17%</text>
+                    </a>
+                </g>
+
+                <g class="hover_group" opacity="1">
+                    <a xlink:href="javascript: void(0)">
+                        <rect rx="10" ry="10" x="780" y="250" opacity="1" fill="#5c9e85" width="200" height="120"></rect>
+                        <rect x="800" y="360" opacity="1" fill="#5c9e85" width="2" height="80"></rect>
+                        <circle cx="800" cy="440" r="7" stroke="#009688" stroke-width="6" fill="#81C784" />
+                        <text x="800" y="290" font-size="24" font-weight="600" fill="#ECEFF1">TSX</text>
+                        <text x="800" y="325" font-size="17" font-weight="600" fill="#ECEFF1">16654.09</text>
+                        <text x="800" y="350" font-size="18" font-weight="600" fill="#225244">+0.79% +101.17%</text>
+                    </a>
+                </g>
+
+                <g class="hover_group" opacity="1">
+                    <a xlink:href="javascript: void(0)">
+                        <rect rx="10" ry="10" x="890" y="480" opacity="1" fill="#5c9e85" width="200" height="120"></rect>
+                        <rect x="1080" y="410" opacity="1" fill="#5c9e85" width="2" height="80"></rect>
+                        <circle cx="1080" cy="410" r="7" stroke="#009688" stroke-width="6" fill="#81C784" />
+                        <text x="910" y="520" font-size="24" font-weight="600" fill="#ECEFF1">TSX</text>
+                        <text x="910" y="555" font-size="17" font-weight="600" fill="#ECEFF1">16654.09</text>
+                        <text x="910" y="580" font-size="18" font-weight="600" fill="#225244">+0.79% +101.17%</text>
+                    </a>
+                </g>
+
+                <g class="hover_group" opacity="1">
+                    <a xlink:href="javascript: void(0)">
+                        <rect rx="10" ry="10" x="1320" y="220" opacity="1" fill="#c28285" width="200" height="120"></rect>
+                        <rect x="1340" y="325" opacity="1" fill="#c28285" width="2" height="80"></rect>
+                        <circle cx="1340" cy="415" r="7" stroke="#ef9a9a" stroke-width="6" fill="#d32f2f" />
+                        <text x="1340" y="260" font-size="24" font-weight="600" fill="#ECEFF1">TSX</text>
+                        <text x="1340" y="295" font-size="17" font-weight="600" fill="#ECEFF1">16654.09</text>
+                        <text x="1340" y="325" font-size="18" font-weight="600" fill="#8a4548">+0.79% +101.17%</text>
+                    </a>
+                </g>
+
+                <g class="hover_group" opacity="1">
+                    <a xlink:href="javascript: void(0)">
+                        <rect rx="10" ry="10" x="1270" y="520" opacity="1" fill="#5c9e85" width="200" height="120"></rect>
+                        <rect x="1460" y="460" opacity="1" fill="#5c9e85" width="2" height="80"></rect>
+                        <circle cx="1460" cy="460" r="7" stroke="#009688" stroke-width="6" fill="#81C784" />
+                        <text x="1290" y="560" font-size="24" font-weight="600" fill="#ECEFF1">TSX</text>
+                        <text x="1290" y="590" font-size="17" font-weight="600" fill="#ECEFF1">16654.09</text>
+                        <text x="1290" y="620" font-size="18" font-weight="600" fill="#225244">+0.79% +101.17%</text>
+                    </a>
+                </g>
+
+                <g class="hover_group" opacity="1">
+                    <a xlink:href="javascript: void(0)">
+                        <rect rx="10" ry="10" x="1580" y="20" opacity="1" fill="#c28285" width="200" height="120"></rect>
+                        <rect x="1590" y="120" opacity="1" fill="#c28285" width="2" height="80"></rect>
+                        <circle cx="1590" cy="200" r="7" stroke="#ef9a9a" stroke-width="6" fill="#d32f2f" />
+                        <text x="1600" y="60" font-size="24" font-weight="600" fill="#ECEFF1">TSX</text>
+                        <text x="1600" y="95" font-size="17" font-weight="600" fill="#ECEFF1">16654.09</text>
+                        <text x="1600" y="120" font-size="18" font-weight="600" fill="#8a4548">+0.79% +101.17%</text>
+                    </a>
+                </g>
+
+                <g class="hover_group" opacity="1">
+                    <a xlink:href="javascript: void(0)">
+                        <rect rx="10" ry="10" x="1620" y="600" opacity="1" fill="#c28285" width="200" height="120"></rect>
+                        <rect x="1640" y="700" opacity="1" fill="#c28285" width="2" height="80"></rect>
+                        <circle cx="1640" cy="780" r="7" stroke="#ef9a9a" stroke-width="6" fill="#d32f2f" />
+                        <text x="1640" y="640" font-size="24" font-weight="600" fill="#ECEFF1">TSX</text>
+                        <text x="1640" y="675" font-size="17" font-weight="600" fill="#ECEFF1">16654.09</text>
+                        <text x="1640" y="705" font-size="18" font-weight="600" fill="#8a4548">+0.79% +101.17%</text>
+                    </a>
+                </g>
+            </svg>
+        </figure>
+</body>
+</html>
